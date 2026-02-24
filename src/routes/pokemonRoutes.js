@@ -16,4 +16,4 @@ router.get('/api/pokemon/:nameOrId', pokemonController.apiGetPokemonDetails);
 router.get('/api/types', pokemonController.apiGetTypes);
 router.get('/api/types/:type', pokemonController.apiGetPokemonByType);
 
-export default router;  
+export default router;
